@@ -50,9 +50,8 @@ All data stored locally with Hive. No account, no login, no cloud dependency. Im
 ## 🚀 Download
 
 | Method | Instructions |
-|---|---|
+|---|---|---|
 | **Direct APK** | Download the latest `.apk` from the [Releases](https://github.com/hamdi-ab/pathcraft-release/releases) page |
-| **Build from source** | See below |
 
 Once installed, open the app, go to **Settings**, enter your **Gemini API Key**, tap **+**, and describe your goal.
 
@@ -62,23 +61,10 @@ Once installed, open the app, go to **Settings**, enter your **Gemini API Key**,
 
 ## 📱 Requirements
 
-- **OS:** Android
+- **OS:** Android 7.0+
 - **Gemini API Key** (free) — required for roadmap generation
-- **For building from source:** Flutter SDK `^3.9.2`
 
----
 
-## 🔧 Building from Source
-
-```bash
-git clone https://github.com/hamdi-ab/pathcraft-release.git
-cd pathcraft-release
-flutter pub get
-dart run build_runner build --delete-conflicting-outputs
-flutter run --release
-```
-
----
 
 ## ⚠️ Current Limitations
 
