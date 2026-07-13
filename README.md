@@ -1,103 +1,110 @@
-# 🗺️ Pathcraft
+<div align="center">
+  <h1>🗺️ Pathcraft</h1>
+  <p><em>AI-powered learning roadmaps — structured, daily, and actually stickable.</em></p>
 
-> Build a structured, AI-generated learning roadmap for any skill — and actually stick to it.
+  <p>
+    <img src="https://img.shields.io/badge/platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Platform: Android" />
+    <img src="https://img.shields.io/badge/flutter-%5E3.9.2-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter ^3.9.2" />
+    <img src="https://img.shields.io/badge/AI-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Powered by Gemini" />
+    <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License: MIT" />
+  </p>
+</div>
 
-Pathcraft is an offline-first Flutter app that uses **Google Gemini AI** to create personalized, multi-month learning roadmaps from a simple goal. Each roadmap breaks down into months, weeks, and daily tasks — giving you a daily checklist and a study timer to stay on track.
+---
+
+## Why Pathcraft?
+
+Most learning plans die after week one. You write a vague goal, follow it for three days, and then life happens.
+
+Pathcraft fixes that: **Gemini AI generates a month-by-month curriculum** from a single sentence goal. Every day, you open your checklist, tick off what's scheduled, and the built-in timer keeps you honest. Offline-first. No account. No excuses.
+
+> *"Learn Figma UI Design in 4 months" → a structured plan with daily tasks, a progress tracker, and a timer — all in one app.*
 
 ---
 
 ## ✨ Features
 
-### 🤖 AI Roadmap Generation
-- Describe any learning goal, like “Learn Figma UI Design in 4 months”
-- Gemini AI generates a structured month-by-month plan
-- Each month can be expanded into weeks and daily tasks on demand
+### 🤖 AI-Generated Roadmaps
+Describe any learning goal. Gemini produces a structured month-by-month plan. Expand any month into weeks and individual daily tasks. Adjust as you go.
 
 ### 📋 Daily Checklist
-- See all tasks scheduled for today, grouped by roadmap
-- Animated task completion with strike-through
-- Daily progress percentage summary
+Today's tasks, grouped by roadmap. Animated strike-through on completion. Daily progress percentage so you know if you're on track.
 
-### ⏱️ Built-in Study Timer
-- Floating timer overlay per task
-- Play / Pause / Stop controls
-- Session length saved with task progress
+### ⏱️ Study Timer
+Floating timer overlay per task. Play, pause, stop. Session time is saved with the task — review how long each topic took.
 
 ### 📅 Calendar View
-- Visual overview of your task schedule by month
-- See which days have tasks planned
+See your scheduled tasks across the month at a glance. Know exactly what's coming and where you have gaps.
 
-### 📊 Skill Progress Map
-- Per-roadmap analytics view
-- Circular progress indicators per month
-- Overall roadmap completion tracking
+### 📊 Progress Dashboard
+Per-roadmap analytics. Circular progress indicators per month. Overall completion tracking. Watch the months fill up.
 
-### 🎨 Beautiful, Premium UI
-- Dark mode, Light mode, and System Default themes
-- Smooth animations
-- Glassmorphism cards and glowing progress bars
-- Premium empty states and onboarding for new users
+### 🎨 Premium UI
+Dark mode, light mode, and system-default themes. Glassmorphism cards, glowing progress bars, smooth animations, and polished onboarding. It *feels* good to open.
 
 ### 💾 Offline-First
-- All data stored locally using Hive
-- No account required
-- Import/export roadmaps as JSON files for backup
-
-### ⚙️ Settings
-- Set your Gemini API key securely
-- Import previously exported roadmaps
-- Switch themes
+All data stored locally with Hive. No account, no login, no cloud dependency. Import and export roadmaps as JSON files for backup or sharing.
 
 ---
 
-## ⚙️ Requirements
+## 🚀 Download
 
-- **Platform:** Android
-- **Gemini API Key:** Required for roadmap generation  
-  Get your free key at [Google AI Studio](https://aistudio.google.com)
-- **Flutter SDK:** `^3.9.2` for building from source
+| Method | Instructions |
+|---|---|
+| **Direct APK** | Download the latest `.apk` from the [Releases](https://github.com/hamdi-ab/pathcraft-release/releases) page |
+| **Build from source** | See below |
 
----
+Once installed, open the app, go to **Settings**, enter your **Gemini API Key**, tap **+**, and describe your goal.
 
-## 🚀 Getting Started
-
-1. Download the APK from the **Assets** section
-2. Install it on your Android device
-3. Enable **Unknown Sources** if needed
-4. Open the app and go to **Settings**
-5. Enter your **Gemini API Key**
-6. Tap **+** and describe your learning goal
-7. Let AI build the roadmap for you
+> 💡 Get your free Gemini API key at [Google AI Studio](https://aistudio.google.com)
 
 ---
 
-## ⚠️ Known Limitations
+## 📱 Requirements
 
-- Push notifications are not yet active
-- Editing a roadmap is not yet supported
-- No cloud backup — data is device-local only
-- AI generation requires an internet connection
-- A valid Gemini API key is required
-- No retry button yet if AI generation fails
+- **OS:** Android
+- **Gemini API Key** (free) — required for roadmap generation
+- **For building from source:** Flutter SDK `^3.9.2`
 
 ---
 
-## 🔮 Roadmap
-
-### v1.1.0
-- Push notification reminders
-- Edit roadmap title, goal, and duration
-- Calendar day tap → task detail navigation
-- Retry button on AI generation failure
-- Cloud sync / account support
-
----
-
-## 🛠️ Building from Source
+## 🔧 Building from Source
 
 ```bash
-git clone https://github.com/your-username/pathcraft.git
-cd pathcraft
+git clone https://github.com/hamdi-ab/pathcraft-release.git
+cd pathcraft-release
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs
 flutter run --release
+```
+
+---
+
+## ⚠️ Current Limitations
+
+| Area | Status |
+|---|---|
+| Push notifications | Not yet active |
+| Roadmap editing | Not yet supported |
+| Cloud backup | Device-local only (JSON export/import available) |
+| AI generation retry | Not yet implemented (tap + to retry) |
+
+---
+
+## 🔮 Planned
+
+**v1.1.0** — Push reminders, roadmap editing, calendar navigation, retry on AI failure, cloud sync.
+
+---
+
+## 👤 About the Developer
+
+Built by [Hamdi Abdel Fetah](https://github.com/hamdi-ab) — a Flutter & full-stack developer who ships. Pathcraft is an offline-first, AI-powered learning companion built with Flutter and Google Gemini.
+
+---
+
+<div align="center">
+  <sub>⭐ If this app helps you learn something, star the repo — it keeps me shipping.</sub>
+  <br/>
+  <a href="https://github.com/hamdi-ab/hamdi-ab">🐙 View my GitHub profile</a>
+</div>
