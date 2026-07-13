@@ -79,13 +79,13 @@ Once installed, open the app, go to **Settings**, enter your **Gemini API Key**,
 
 ## 🔮 Coming Next
 
-- **v1.1.0** - Roadmap editing, cloud sync, advanced calendar navigation, iOS support
+- **v1.1.0** - Roadmap editing, advanced calendar navigation
 
 ---
 
 ## 👤 About the Developer
 
-Built by [Hamdi Abdel Fetah](https://github.com/hamdi-ab) — a Flutter & full-stack developer who ships. Pathcraft is an offline-first, AI-powered learning companion built with Flutter and Google Gemini.
+Built by [Hamdi Abdulfetah](https://github.com/hamdi-ab) — a Flutter & full-stack developer who ships. Pathcraft is an offline-first, AI-powered learning companion built with Flutter and Google Gemini.
 
 ---
 
