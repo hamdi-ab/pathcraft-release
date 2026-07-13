@@ -66,20 +66,20 @@ Once installed, open the app, go to **Settings**, enter your **Gemini API Key**,
 
 
 
-## ⚠️ Current Limitations
+## ⚠️ Known Limitations
 
 | Area | Status |
 |---|---|
-| Push notifications | Not yet active |
-| Roadmap editing | Not yet supported |
+| Roadmap editing (title/goal changes) | Not yet supported |
 | Cloud backup | Device-local only (JSON export/import available) |
-| AI generation retry | Not yet implemented (tap + to retry) |
+| AI creation retry | Month regeneration works; initial roadmap retry pending |
+| iOS version | Not yet available |
 
 ---
 
-## 🔮 Planned
+## 🔮 Coming Next
 
-**v1.1.0** — Push reminders, roadmap editing, calendar navigation, retry on AI failure, cloud sync.
+- **v1.1.0** - Roadmap editing, cloud sync, advanced calendar navigation, iOS support
 
 ---
 
